@@ -1,6 +1,5 @@
 {
-  "name": "fca-c1b1r404",
-  "version",
+  "name": "fca-404rajib",
   "version": "26.7.8",
   "description": "Facebook-chat-api Develop By Md Jahid Hasan Rajib",
   "main": "index.js",
@@ -63,6 +62,40 @@
     "prettier": "latest"
   },
   "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "rules": {
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-unused-vars": [
+        1,
+        {
+          "argsIgnorePattern": "^_"
+        }
+      ]
+    }
+  },
+  "keywords": [
+    "facebook-chat-api",
+    "fb-chat-api",
+    "Fca Cyber",
+    "fca-cyber",
+    "Cyber fca",
+    "Cyber Rajib"
+  ]
+}
     "env": {
       "es6": true,
       "node": true
