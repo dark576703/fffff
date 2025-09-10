@@ -1,7 +1,7 @@
 {
-  "name": "fca-404rajib",
-  "version": "26.7.8",
-  "description": "Facebook-chat-api Develop By Md Jahid Hasan Rajib",
+  "name": "fca-cyber-chat",
+  "version": "10.2.3",
+  "description": "Facebook-chat-api develop by Cyber Rajib",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
@@ -20,38 +20,33 @@
   },
   "dependencies": {
     "aes-js": "latest",
-    "ansi-to-html": "latest",
     "assert": "latest",
+    "better-sqlite3": "7.4.5",
     "bluebird": "latest",
     "chalk": "4.1.2",
-    "cheerio": "1.0.0-rc.12",
+    "cheerio": "latest",
     "crypto-js": "latest",
-    "deasync": "^0.1.28",
-    "duplexify": "^4.1.2",
-    "better-sqlite3": "11.0.0",
-    "encode32": "latest",
     "express": "latest",
-    "figlet": "latest",
     "file-url": "^3.0.0",
-    "got": "^11.8.6",
+    "got": "^11.8.3",
     "https-proxy-agent": "latest",
     "is-hexcolor": "^1.0.0",
     "lodash": "latest",
     "moment": "^2.29.4",
-    "mqtt": "^4.3.7",
+    "mqtt": "latest",
     "npmlog": "latest",
     "os": "latest",
     "path": "latest",
     "pretty-ms": "7.0.1",
-    "readable-stream": "^4.4.0",
     "readline": "latest",
     "request": "latest",
-    "speakeasy": "latest",
-    "sqlite3": "^5.0.2",
-    "totp-generator": "^0.0.14",
-    "tough-cookie": "^4.1.2",
+    "semver": "^7.4.0",
+    "sqlite": "4.0.21",
+    "totp-generator": "latest",
     "uuid": "latest",
-    "ws": "^8.13.0"
+    "encode32": "latest",
+    "tough-cookie": "^4.1.2",
+    "websocket-stream": "latest"
   },
   "engines": {
     "node": ">=20.x <22.x"
@@ -88,43 +83,7 @@
     }
   },
   "keywords": [
-    "facebook-chat-api",
-    "fb-chat-api",
-    "Fca Cyber",
-    "fca-cyber",
-    "Cyber fca",
-    "Cyber Rajib"
-  ]
-}
-    "env": {
-      "es6": true,
-      "node": true
-    },
-    "extends": "eslint:recommended",
-    "parserOptions": {
-      "sourceType": "module"
-    },
-    "rules": {
-      "linebreak-style": [
-        "error",
-        "unix"
-      ],
-      "semi": [
-        "error",
-        "always"
-      ],
-      "no-unused-vars": [
-        1,
-        {
-          "argsIgnorePattern": "^_"
-        }
-      ]
-    }
-  },
-  "keywords": [
-    "facebook-chat-api",
-    "fb-chat-api",
-    "Fca Cyber",
+   "Fca Cyber",
     "fca-cyber",
     "Cyber fca",
     "Cyber Rajib"
