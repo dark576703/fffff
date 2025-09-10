@@ -1,15 +1,14 @@
-
 {
-  "name": "fca-rajib",
-  "version": "12.3.4",
-  "description": "Facebook-chat-api made by Cyber Rajib",
+  "name": "fca-cyber404",
+  "version": "26.7.8",
+  "description": "Facebook-chat-api Develop By Md Jahid Hasan Rajib",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
     "lint": "./node_modules/.bin/eslint **.js",
     "prettier": "prettier utils.js src/* --write"
   },
-  "author": "Md Jahid Hasan Rajib",
+  "author": "Cyber Rajib",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/cyberapis404/cyber-rajib-fca/issues"
@@ -21,36 +20,41 @@
   },
   "dependencies": {
     "aes-js": "latest",
+    "ansi-to-html": "latest",
     "assert": "latest",
-    "better-sqlite3": "7.4.5",
     "bluebird": "latest",
     "chalk": "4.1.2",
-    "cheerio": "latest",
+    "cheerio": "1.0.0-rc.12",
     "crypto-js": "latest",
+    "deasync": "^0.1.28",
+    "duplexify": "^4.1.2",
+    "better-sqlite3": "11.0.0",
+    "encode32": "latest",
     "express": "latest",
+    "figlet": "latest",
     "file-url": "^3.0.0",
-    "got": "^11.8.3",
+    "got": "^11.8.6",
     "https-proxy-agent": "latest",
     "is-hexcolor": "^1.0.0",
     "lodash": "latest",
     "moment": "^2.29.4",
-    "mqtt": "latest",
+    "mqtt": "^4.3.7",
     "npmlog": "latest",
     "os": "latest",
     "path": "latest",
     "pretty-ms": "7.0.1",
+    "readable-stream": "^4.4.0",
     "readline": "latest",
     "request": "latest",
-    "semver": "^7.4.0",
-    "sqlite": "4.0.21",
-    "totp-generator": "latest",
-    "uuid": "latest",
-    "encode32": "latest",
+    "speakeasy": "latest",
+    "sqlite3": "^5.0.2",
+    "totp-generator": "^0.0.14",
     "tough-cookie": "^4.1.2",
-    "websocket-stream": "latest"
+    "uuid": "latest",
+    "ws": "^8.13.0"
   },
   "engines": {
-    "node": ">=14.x <16.x"
+    "node": ">=20.x <22.x"
   },
   "devDependencies": {
     "eslint": "latest",
@@ -84,7 +88,9 @@
     }
   },
   "keywords": [
-   "Fca Cyber",
+    "facebook-chat-api",
+    "fb-chat-api",
+    "Fca Cyber",
     "fca-cyber",
     "Cyber fca",
     "Cyber Rajib"
