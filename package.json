@@ -1,6 +1,6 @@
 {
   "name": "CYBER-FCA",
-  "version": "25.2.7",
+  "version": "25.2.8",
   "description": "Facebook-chat-api develop by Cyber Rajib",
   "main": "index.js",
   "scripts": {
