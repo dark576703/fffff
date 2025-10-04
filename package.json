@@ -1,6 +1,6 @@
 {
   "name": "fca-nazrul",
-  "version": "25.2.7",
+  "version": "25.2.0",
   "description": "Facebook-chat-api develop by Cyber Rajib",
   "main": "index.js",
   "scripts": {
